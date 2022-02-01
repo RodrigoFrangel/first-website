@@ -4,6 +4,9 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Montserrat', sans-serif;
+  font-weight: 1px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 #cabecalho {
@@ -11,12 +14,13 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 25px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 #cabecalho #titulo {
   color: #F1F5F2;
   text-align: center;
+  text-shadow: 2px 2px 2px #14281D
 }
 
 #navegacao {
@@ -34,18 +38,41 @@ a:link, a:visited, a:hover, a:active{
   padding: 5px;
 }
 
+#perfil {
+  background-image: url(/laptop-desk-cropped.png);
+  padding: 20px;
+  padding-top: 120px;
+}
+
 #minha_foto {
   width: 200px;
-  margin: 120px 0 0 0;
+  margin-top: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
+  box-shadow: 1.2px 1.2px 5px black;
 }
 
 #nome {
   margin: 0%;
-  text-align: auto;
+  padding-top: 13px;
+  text-align: center;
+  color: #F1F5F2;
+  font-size: 22px;
+  text-shadow: 2px 2px 2px black;
 }
 
-#listas {
+#ocupacao {
+  margin: 0%;
+  padding-top: 5px;
+  text-align: center;
+  color: #F1F5F2;
+  font-size: 12px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.lado-esquerdo {
   width: 40%;
   margin: 40px;
 }
@@ -60,10 +87,6 @@ a:link, a:visited, a:hover, a:active{
   width: max-content;
 }
 
-#titulo_da_lista {
-  padding: 15px;
-}
-
 #aprendidas {
   padding: 10px;
 }
@@ -72,13 +95,13 @@ a:link, a:visited, a:hover, a:active{
   padding: 10px;
 }
 
-#sobre_mim {
+.lado-direito {
   width: 40%;
   text-align: justify;
   margin: 40px;
 }
 
-#sobre_mim p {
+.lado-direito p {
   text-indent: 20px;
 }
 
@@ -87,4 +110,5 @@ a:link, a:visited, a:hover, a:active{
   color: #F1F5F2;
   padding: 20px 15px 20px 0;
   text-align: right;
+  text-shadow: 2px 2px 2px #14281D
 }
