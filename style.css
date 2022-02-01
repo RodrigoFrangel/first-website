@@ -1,0 +1,31 @@
+* {
+  margin: 0%;
+}
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cabecalho {
+  background-color: #355834;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #F1F5F2;
+  text-align: center;
+  padding: 25px;
+}
+
+#minha_foto {
+  width: 200px;
+  margin: 120px 0 0 0;
+  align-self: center;
+  border-radius: 50%;
+}
+
+#nome {
+  margin: 0%;
+  text-align: center;
+}
+
+  
