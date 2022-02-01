@@ -11,21 +11,80 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 25px 0 20px 0;
+}
+
+#cabecalho #titulo {
   color: #F1F5F2;
   text-align: center;
-  padding: 25px;
+}
+
+#navegacao {
+  padding-top: 10px;
+  color: #F1F5F2;
+  text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: #F1F5F2;
+}
+
+.links {
+  padding: 5px;
 }
 
 #minha_foto {
   width: 200px;
   margin: 120px 0 0 0;
-  align-self: center;
   border-radius: 50%;
 }
 
 #nome {
   margin: 0%;
-  text-align: center;
+  text-align: auto;
 }
 
+#listas {
+  width: 40%;
+  margin: 40px;
+}
+
+#lista_01 {
+  display: inline-block;
+  width: max-content;
+}
   
+#lista_02 {
+  display: inline-block;
+  width: max-content;
+}
+
+#titulo_da_lista {
+  padding: 15px;
+}
+
+#aprendidas {
+  padding: 10px;
+}
+
+#a_aprender {
+  padding: 10px;
+}
+
+#sobre_mim {
+  width: 40%;
+  text-align: justify;
+  margin: 40px;
+}
+
+#sobre_mim p {
+  text-indent: 20px;
+}
+
+#rodape {
+  background-color: #6E633D;
+  color: #F1F5F2;
+  padding: 20px 15px 20px 0;
+  text-align: right;
+}
