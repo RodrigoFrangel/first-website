@@ -20,7 +20,8 @@ body {
 #cabecalho #titulo {
   color: #F1F5F2;
   text-align: center;
-  text-shadow: 2px 2px 2px #14281D
+  text-shadow: 2px 2px 2px #14281D;
+  padding: 5px;
 }
 
 #navegacao {
@@ -72,37 +73,50 @@ a:link, a:visited, a:hover, a:active{
   text-shadow: 2px 2px 2px black;
 }
 
+.conteiner-flex {
+  display: flex;
+}
+
 .lado-esquerdo {
   width: 40%;
   margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#lista_01 {
-  display: inline-block;
+#titulo_da_lista {
+  text-align: center;
   width: max-content;
-}
-  
-#lista_02 {
-  display: inline-block;
-  width: max-content;
+  margin-left: 40%;
 }
 
-#aprendidas {
+#lista_01, #lista_02 {
+  display: inline-block;
+  width: fit-content;
+  margin-left: 12%;
+}
+
+#aprendidas, #a_aprender {
   padding: 10px;
 }
 
-#a_aprender {
-  padding: 10px;
+.tabela {
+  justify-content: center;
 }
 
 .lado-direito {
-  width: 40%;
   text-align: justify;
+  flex-direction: column;
   margin: 40px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
-.lado-direito p {
+.lado-direito p{
   text-indent: 20px;
+  padding-top: 10px;
 }
 
 #rodape {
